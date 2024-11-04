@@ -1,5 +1,5 @@
 import React from "react";
-import heroimg from "../assets/heroimg.jpg";
+import girl from "../assets/heroImg.jpg";
 const Hero = () => {
   return (
     <div>
@@ -24,7 +24,7 @@ const Hero = () => {
             </div>
           </div>
           <div>
-            <img src={heroimg} alt="" />
+            <img src={girl} alt="" />
           </div>
         </div>
       </div>
