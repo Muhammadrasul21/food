@@ -19,12 +19,12 @@ const Info = () => {
             src={woman}
             className="w-20 h-20 mb-8 md:mb-0 rounded-full"
           />
-          <p className="mb-2">
+          <p className="mb-5 mt-[42px] w-[506px]">
             You need not only just food stalls with personnel but also
             specialized equipment, skills to manage customers, effective product
             catalogs, etc., to achieve success.
           </p>
-          <p className="font-bold">Augusta W. Reynoso</p>
+          <p className="font-bold leading-6">Augusta W. Reynoso</p>
           <p className="text-gray-500">UI & UX Designer</p>
         </div>
       </div>
