@@ -13,6 +13,7 @@ function App() {
       <Delivery />
       <About />
       <Product />
+      
     </>
   );
 }
