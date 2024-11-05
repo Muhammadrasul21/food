@@ -5,6 +5,8 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Product from "./components/Product";
 import Info from "./components/Info";
+import Contact from "./components/Contact";
+import Footer from "../src/components/Footer";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <About />
       <Product />
       <Info />
+      <Contact />
+      <Footer />
     </>
   );
 }

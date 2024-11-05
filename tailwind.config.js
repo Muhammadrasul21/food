@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        philosopher: ['"Philosopher"', "sans-serif"],
+        philosopher: ["Philosopher", "sans-serif"],
       },
     },
   },

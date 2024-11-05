@@ -1,6 +1,6 @@
 import React from "react";
 import woman from "../assets/maskGroup.svg";
-
+import { FaStar } from "react-icons/fa";
 const Info = () => {
   return (
     <div className="container mx-auto max-w-[1140px] p-4">
@@ -15,15 +15,19 @@ const Info = () => {
             specialized equipment, skills to manage customers, effective product
             catalogs, etc., to succeed.
           </p>
-          <img
-            src={woman}
-            className="w-20 h-20 mb-8 md:mb-0 rounded-full"
-          />
+          <img src={woman} className="w-20 h-20 mb-8 md:mb-0 rounded-full" />
           <p className="mb-5 mt-[42px] w-[506px]">
             You need not only just food stalls with personnel but also
             specialized equipment, skills to manage customers, effective product
             catalogs, etc., to achieve success.
           </p>
+          <div className="flex mb-[50px]">
+            <FaStar className="text-[#DC780B]" />
+            <FaStar className="text-[#DC780B]" />
+            <FaStar className="text-[#DC780B]" />
+            <FaStar className="text-[#DC780B]" />
+            <FaStar />
+          </div>
           <p className="font-bold leading-6">Augusta W. Reynoso</p>
           <p className="text-gray-500">UI & UX Designer</p>
         </div>
